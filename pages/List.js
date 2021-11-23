@@ -21,7 +21,7 @@ const people = [
 export default function Example() {
 	return (
 		<>
-			<div className='bg-teal-400'>
+			<div className='bg-green-400 p-4 rounded-md'>
 				<ul className='divide-y divide-gray-200'>
 					{people.map((person) => (
 						<li key={person.email} className='py-4 flex'>

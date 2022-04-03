@@ -4,9 +4,9 @@ import * as Icon from 'react-feather';
 const Container2 = () => {
 	return (
 		<>
-			<div className='bg-purple-50 lg:py-8 sm:my-20'>
-				<div className='container sm:px-5 mx-auto  flex items-center justify-between'>
-					<div className='bg-red-500 m-4 p-8 flex flex-col justify-between rounded-xl w-1/4 h-80 filter shadow-md'>
+			<div className='bg-purple-100 bg-opacity-60 lg:py-8 sm:my-20'>
+				<div className='w-full max-w-7xl mx-auto  flex justify-between space-x-4'>
+					<div className='bg-red-500  p-8 flex flex-col justify-between rounded-xl w-full min-h-[360px]  filter shadow-md'>
 						<div className='flex justify-between items-center '>
 							<p className='text-white font-semibold text-3xl w-20'>
 								Opening Hours
@@ -30,7 +30,7 @@ const Container2 = () => {
 							</div>
 						</div>
 					</div>
-					<div className='bg-white m-4 p-8  flex flex-col justify-between rounded-xl w-1/4 h-80 filter shadow-md'>
+					<div className='bg-white  p-8  flex flex-col justify-between rounded-xl w-full min-h-[360px]  filter shadow-md'>
 						<div className='flex justify-between items-center '>
 							<p className='text-gray-800 font-semibold text-3xl w-20'>
 								Medical Checkup
@@ -45,7 +45,7 @@ const Container2 = () => {
 								</p>
 								<div className='py-4'>
 									<a
-										href=''
+										href='#'
 										className='bg-red-500 rounded-full font-bold text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-red-700 mr-6'
 									>
 										Request
@@ -54,7 +54,7 @@ const Container2 = () => {
 							</div>
 						</div>
 					</div>
-					<div className='bg-white m-4 p-8  flex flex-col justify-between rounded-xl w-1/4 h-80 filter shadow-md'>
+					<div className='bg-white  p-8  flex flex-col justify-between rounded-xl w-full min-h-[360px]  filter shadow-md'>
 						<div className='flex justify-between items-center '>
 							<p className='text-gray-800 font-semibold text-3xl w-20'>
 								Find Doctor
@@ -69,7 +69,7 @@ const Container2 = () => {
 								</p>
 								<div className='py-4'>
 									<a
-										href=''
+										href='#'
 										className='bg-red-500 rounded-full font-bold text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-red-700 mr-6'
 									>
 										Request
@@ -78,7 +78,7 @@ const Container2 = () => {
 							</div>
 						</div>
 					</div>
-                    <div className='bg-white m-4 p-8  flex flex-col justify-between rounded-xl w-1/4 h-80 filter shadow-md'>
+                    <div className='bg-white  p-8  flex flex-col justify-between rounded-xl w-full min-h-[360px]  filter shadow-md'>
 						<div className='flex justify-between items-center '>
 							<p className='text-gray-800 font-semibold text-3xl w-20'>
 								Find Location
@@ -90,10 +90,11 @@ const Container2 = () => {
 								<p className='text-gray-400 text-xl font-medium mb-4'>
 									Lorem Ipsum is simply dummy text of the
 									printing and typesetting industry.
+									
 								</p>
 								<div className='py-4'>
 									<a
-										href=''
+										href='#'
 										className='bg-red-500 rounded-full font-bold text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-red-700 mr-6'
 									>
 										Request

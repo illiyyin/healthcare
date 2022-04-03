@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Container1 from './Container1'
-import Container2 from './Container2'
+import Container1 from '../component/Container1'
+import Container2 from '../component/Container2'
+import Container3 from '../component/Container3'
 import Example from './List'
-import Navbar from './Navbar'
+import Navbar from '../component/Navbar'
 
 const Home=()=> {
   return (
@@ -20,6 +21,7 @@ const Home=()=> {
       <main className={styles.main}>
         <Container1/>
         <Container2/>
+        <Container3/>
         {/* <Example/> */}
       </main>
       <div>
